@@ -1,0 +1,263 @@
+/* Layout of all pages */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8E8;
+}
+
+main {
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 0 15% 0 15%;
+    padding: 15px;
+    font-size: x-large;
+    text-align: center;
+}
+
+/* Sidebar */
+nav {
+    margin-top: 40px;
+    width: 14%;
+    height: 100%;
+    float: left;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+header,
+nav {
+    color: #514150;
+    background-color: #A6A6A4;
+}
+
+nav a {
+    padding: 40px;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #89BEB3;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    color: white;
+}
+
+.dropdown {
+    float: none;
+}
+
+.dropdown-content {
+    display: none;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-size: 18px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* To make the name of the page in sidebar be larger than the others */
+#location {
+    font-size: 23px;
+}
+
+section {
+    width: 86%;
+    height: 590px;
+    float: right;
+}
+
+article {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 50px 0 50px 38%;
+    color: #514150;
+}
+
+.announcements ul {
+    list-style-type: none;
+}
+
+ul a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.announcements li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: #A6A6A4;
+    color: #514150;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.announcements li:hover {
+    background-color: #89BEB3;
+    color: #E8E8E8;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+table {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+}
+
+.table {
+    padding: 10px 0 10px 20%;
+}
+
+img {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: auto;
+}
+
+.image {
+    text-align: center;
+}
+
+#campuslife img {
+    width: 150px;
+    height: auto;
+}
+
+.bigger-img:hover {
+    width: 700px;
+    height: auto;
+}
+
+.transparent-img:hover {
+    opacity: 0.75;
+}
+
+.announcements {
+    margin: 40px;
+}
+
+.announcement-date {
+    font-size: 10px;
+    color: #E8E8E8;
+}
+
+.announcement-title {
+    font-size: 20px;
+}
+
+.redirect {
+    margin: 40px;
+    text-align: center;
+}
+
+.redirect a {
+    background-color: #A6A6A4;
+    color: #514150;
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px;
+}
+
+.redirect a:hover {
+    background-color: #89BEB3;
+    color: #E8E8E8;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.number-of-students-and-staff {
+    background-color: #A6A6A4;
+}
+
+.number-of-students-and-staff tr:nth-child(even) {
+    background-color: #E8E8E8;
+}
+
+.number-of-students-and-staff tr:nth-child(odd) {
+    background-color: white;
+}
+
+.number-of-students-and-staff tr td {
+    padding: 10px;
+}
+
+.number-of-students-and-staff tr {
+    color: #514150;
+}
+
+.number-of-students-and-staff tr:hover {
+    background-color: #89BEB3;
+    color: #f2f2f2;
+}
+
+#administrative-units li {
+    padding: 15px;
+}
+
+#administrative-units a:hover {
+    text-decoration: underline;
+}
+
+.academics-table {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background-color: #A6A6A4;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.academics-table tr * {
+    padding: 10px;
+    width: 250px;
+    background-color: #f2f2f2;
+}
+
+.academics-table tr *:hover {
+    background-color: #89BEB3;
+    color: #f2f2f2;
+}
+
+.academics-table a {
+    text-decoration: none;
+    color: inherit;
+    background-color: initial;
+}
+
+.academics-table a:hover {
+    text-decoration: underline;
+    background-color: initial;
+}
+
+.documents {
+    padding: 50px;
+}
+
+.documents a:hover {
+    text-decoration: underline;
+}
+
+#students-page article a {
+    text-decoration: none;
+    color: black;
+}
+
+#students-page article a:hover {
+    text-decoration: underline;
+}
+
+.article {
+    padding: 50px 20% 0 75px;
+}

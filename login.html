@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login | Eskisehir Technical University</title>
+    <link rel="shortcut icon" href="logo.png" />
+    <style>
+        body {
+            background-image: url("eskisehir-technical-university3.jpg");
+            background-size: cover;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        form {
+            margin: 12% 32%;
+            padding: 50px;
+            color: #514150;
+            background-color: #E8E8E8;
+            font-size: 16px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form td {
+            padding: 10px;
+        }
+
+        form input {
+            color: #514150;
+            width: 150px;
+            height: 25px;
+        }
+
+        form .button {
+            background-color: #A6A6A4;
+            width: fit-content;
+            height: fit-content;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        form .button:hover {
+            background-color: #89BEB3;
+            color: #E8E8E8;
+            margin-top: 3px;
+            margin-bottom: -3px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="home.html">
+        <h2>Student Login</h2>
+        <table align="center">
+            <tr>
+                <td><label for="user-name">Enter your username: </label></td>
+                <td><input type="text" name="user-name" id="user-name" placeholder="Username" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Enter your password: </label></td>
+                <td><input type="password" name="password" id="password" placeholder="Password" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Login" class="button">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
